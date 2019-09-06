@@ -15,6 +15,10 @@ router.get('/test', (req, res) => {
 });
 
 
+router.get('/testpage', (req, res) => {
+    res.status('200').send("This is a test page!");
+});
+
 
 // retrieve all musicians from data store
 router.get('/all', (req, res) => {
